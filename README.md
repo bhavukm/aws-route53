@@ -37,4 +37,28 @@ A general Route53 scenario:
 
 ![image](https://github.com/user-attachments/assets/0735a99f-154b-4540-bbbd-8102afff6e79)
 
+DNS Terms:
 
+CNAME (Canonical Name):  is a type of DNS record that points a subdomain to a fully qualified domain name (FQDN). Example: shown above
+
+Name server (NS): is a server on the internet that's specialized in handling queries regarding the location of a domain name’s various services. If you set up your domain in Amazon Route 53, a list of name servers are already assigned to your domain.
+
+A Record: Domain to IPV4 address mapping.
+
+AAAA Record: Domain to IPV6 address mapping.
+
+TLD (Top Level Domain): The highest level in the DNS structure which comes after dot, like .com
+
+DNS Root Server: First stop in the DNS lookup.
+
+![image](https://github.com/user-attachments/assets/1be0053c-f6d2-4624-a109-4f242deae987)
+
+Authoritative nameserver: A vital part of DNS that makes it possible to access websites.
+
+Top Level Domain (TLD): Generic part of the domain name. Example: .com, .org, .gov etc.
+
+FQDN (Fully Qualified Domain Name):  are made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
+
+![image](https://github.com/user-attachments/assets/79f60db2-5463-4a3b-ab01-d598ff3d9703)
+
+More DNS Terms: https://www.opsschool.org/dns_101.html
