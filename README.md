@@ -26,3 +26,15 @@ Generally speaking, there are 4 types of DNS Nameservers: DNS Recursive Resolver
 8. The recursive resolver sends the website mapping information to the user's browser. Also, it caches that information for the Time To Live (TTL).
 
 9. The user is now able to access the website: www.example.com
+
+AWS Route53 Concepts:
+
+This 53 represents the standard port for DNS service. Highly available, scalable DNS service. Basically, route53 can perform 3 functions:
+
+Domain Registration, DNS Routing, and health checking
+
+A general Route53 scenario:
+
+![image](https://github.com/user-attachments/assets/0735a99f-154b-4540-bbbd-8102afff6e79)
+
+
