@@ -37,7 +37,7 @@ A general Route53 scenario:
 
 ![image](https://github.com/user-attachments/assets/0735a99f-154b-4540-bbbd-8102afff6e79)
 
-DNS Terms:
+**DNS Terms:**
 
 A Record: resolves a domain name to an IPV4 address.
 
