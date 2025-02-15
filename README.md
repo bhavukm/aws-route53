@@ -51,18 +51,18 @@ Name server (NS): is a server on the internet that's specialized in handling DNS
 
 AAAA Record: resolves a domain name to an IPV6 address.
 
-TLD (Top Level Domain): The highest level in the DNS structure which comes after dot, like .com
+DNS Recursive Resolver: Acts as an interface between the client and other DNS Name Servers.
 
-DNS Root Server: First stop in the DNS lookup.
+DNS Root Name Server: First step in the DNS lookup.
 
-![image](https://github.com/user-attachments/assets/9a07f562-3f50-49b9-b423-2636f2b0d5c3)
+TLD (Top Level Domain) Name Server: The highest level in the DNS structure which comes after dot, like .com
 
+Authoritative Name Server: A vital part of DNS that makes it possible to access websites. Amazon Route 53 is an authoritative DNS system.
 
-Authoritative nameserver: A vital part of DNS that makes it possible to access websites. Amazon Route 53 is an authoritative DNS system.
+FQDN (Fully Qualified Domain Name):  Is made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
 
-Top Level Domain (TLD): Generic part of the domain name. Example: .com, .org, .gov etc.
+![image](https://github.com/user-attachments/assets/b5d6c4fc-8289-47da-87f5-e93b55527279)
 
-FQDN (Fully Qualified Domain Name):  Are made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
 
 ![image](https://github.com/user-attachments/assets/79f60db2-5463-4a3b-ab01-d598ff3d9703)
 
