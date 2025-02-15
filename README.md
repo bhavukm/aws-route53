@@ -55,7 +55,8 @@ TLD (Top Level Domain): The highest level in the DNS structure which comes after
 
 DNS Root Server: First stop in the DNS lookup.
 
-![image](https://github.com/user-attachments/assets/1be0053c-f6d2-4624-a109-4f242deae987)
+![image](https://github.com/user-attachments/assets/9a07f562-3f50-49b9-b423-2636f2b0d5c3)
+
 
 Authoritative nameserver: A vital part of DNS that makes it possible to access websites. Amazon Route 53 is an authoritative DNS system.
 
