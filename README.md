@@ -59,9 +59,10 @@ TLD (Top Level Domain) Name Server: The highest level in the DNS structure which
 
 Authoritative Name Server: A vital part of DNS that makes it possible to access websites. Amazon Route 53 is an authoritative DNS system.
 
-FQDN (Fully Qualified Domain Name):  Is made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
-
 ![image](https://github.com/user-attachments/assets/b5d6c4fc-8289-47da-87f5-e93b55527279)
+
+
+FQDN (Fully Qualified Domain Name):  Is made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
 
 
 ![image](https://github.com/user-attachments/assets/79f60db2-5463-4a3b-ab01-d598ff3d9703)
