@@ -51,7 +51,8 @@ Name server (NS): is a server on the internet that's specialized in handling DNS
 
 AAAA Record: resolves a domain name to an IPV6 address.
 
-![image](https://github.com/user-attachments/assets/387dca19-f507-4e6f-a372-8682d646a8de)
+![image](https://github.com/user-attachments/assets/c33d2130-041c-47f7-a49d-9964681d9661)
+
 
 
 DNS Recursive Resolver: Acts as an interface between the client and other DNS Name Servers.
