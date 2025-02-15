@@ -27,9 +27,9 @@ Generally speaking, there are 4 types of DNS Nameservers: DNS Recursive Resolver
 
 9. The user is now able to access the website: www.example.com
 
-AWS Route53 Concepts:
+**AWS Route53 Concepts:**
 
-This 53 represents the standard port for DNS service. Highly available, scalable DNS service. Basically, route53 can perform 3 functions:
+This number 53 represents the standard port for DNS service. Highly available, scalable DNS service. Basically, route53 can perform 3 functions:
 
 Domain Registration, DNS Routing, and health checking
 
@@ -39,13 +39,17 @@ A general Route53 scenario:
 
 DNS Terms:
 
-CNAME (Canonical Name):  is a type of DNS record that points a subdomain to a fully qualified domain name (FQDN). Example: shown above
+A Record: resolves a domain name to an IPV4 address.
 
-Name server (NS): is a server on the internet that's specialized in handling queries regarding the location of a domain name’s various services. If you set up your domain in Amazon Route 53, a list of name servers are already assigned to your domain.
+Alias record: resolves a domain name to another domain name, but not an IP address.
 
-A Record: Domain to IPV4 address mapping.
+CNAME (Canonical Name):  is a type of DNS record that points a domain to another domain name, but not to a root domain. Example: shown above
 
-AAAA Record: Domain to IPV6 address mapping.
+Alias A: is another version of alias record where you are resolving a domain to another domain but this another domain will be pointing to a particular IP address or a specific resource.
+
+Name server (NS): is a server on the internet that's specialized in handling DNS queries. If you set up your domain in Amazon Route 53, a list of name servers are already assigned to your domain.
+
+AAAA Record: resolves a domain name to an IPV6 address.
 
 TLD (Top Level Domain): The highest level in the DNS structure which comes after dot, like .com
 
@@ -53,12 +57,14 @@ DNS Root Server: First stop in the DNS lookup.
 
 ![image](https://github.com/user-attachments/assets/1be0053c-f6d2-4624-a109-4f242deae987)
 
-Authoritative nameserver: A vital part of DNS that makes it possible to access websites.
+Authoritative nameserver: A vital part of DNS that makes it possible to access websites. Amazon Route 53 is an authoritative DNS system.
 
 Top Level Domain (TLD): Generic part of the domain name. Example: .com, .org, .gov etc.
 
-FQDN (Fully Qualified Domain Name):  are made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
+FQDN (Fully Qualified Domain Name):  Are made up of multiple levels, including the subdomain, domain name, and top-level domain (TLD). 
 
 ![image](https://github.com/user-attachments/assets/79f60db2-5463-4a3b-ab01-d598ff3d9703)
+
+Hosted Zone: is a collection of DNS records that define how traffic is routed to a domain or subdomain.
 
 More DNS Terms: https://www.opsschool.org/dns_101.html
