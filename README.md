@@ -41,7 +41,7 @@ A general Route53 scenario:
 
 A Record: resolves a domain name to an IPV4 address.
 
-Alias record: resolves a domain name to another domain name, but not an IP address.
+Alias record: resolves a domain name to another domain name, but not an IP address. Also, works with the root domain as well (example: amazonaws.com)
 
 CNAME (Canonical Name):  is a type of DNS record that points a domain to another domain name, but not to a root domain. Example: shown above
 
